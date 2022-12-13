@@ -1,0 +1,30 @@
+/* responsive mobile -more-than: Mobile: 610px */
+@media only screen and (min-width:610px){
+    body{
+        justify-content: center;
+        align-items: center;
+        background: var(--Light-grayish-blue-1);
+    }
+    header{
+        width: 45.8125rem;
+        justify-content: space-between;
+        background: var(--White);
+        border-radius: 10px 10px 0 0;
+    }
+    main{
+        width: 45.8125rem;
+        height: 80%;
+        background: var(--White);
+        border-radius: 0 0 10px 10px;
+        .ches-pict{
+            position:absolute;
+            right: 25px;
+            &:hover{
+                border: 1px solid var(--Light-grayish-blue-2);
+                padding: 2px;
+                border-radius: 10px;
+            }
+            
+        }
+    }
+}
