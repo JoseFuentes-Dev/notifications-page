@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .notification{
+        color: var(--Very-dark-blue);
+        font-size: 1.2em;
+        font-weight: 800;
+        cursor: pointer;
+        span{
+            background: var(--Blue);
+            color: var(--White);
+            padding: 3px 10px 3px 8px;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+    }
+    p{
+        font-size: .9em;
+        color: var(--Dark-grayish-blue);
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    .notify{
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        .details{
+            display: flex;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        p{
+            color: var(--Dark-grayish-blue);
+            font-weight: 500;
+            font-size: .93em;
+            line-height: 21px;
+         
+        }
+        .name{
+            font-size: .95em;
+            color: var(--Very-dark-blue);
+            font-weight: 800;
+            margin-right: 5px;
+
+        }
+        .desc{
+        margin-left: 5pxs;
+            font-weight: 800;
+        }
+        .desc-chess{
+            color: var(--Blue);
+            font-weight: 800;
+        }
+        .time{
+            color: var(--Grayish-blue);
+            font-size: .9em;
+        }
+        .details{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .desc-p{
+            border: 1px solid var(--Light-grayish-blue-2);
+            border-radius: 10px;
+            padding: 20px;
+            font-size: .9em;
+        }
+        .details-chess{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .active{
+        background: var(--Very-light-grayish-blue);
+        border-radius: 10px;
+        .dot{
+            position: relative;
+           bottom: 3px;
+            border-radius: 50%;
+            padding: 0 3px 0 4px ;
+            font-size: .1em;
+            background: var(--Red);
+            margin:8px;
+           
+        }
+    }
+}
