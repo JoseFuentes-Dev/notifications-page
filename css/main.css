@@ -131,7 +131,7 @@ main .active .dot {
   position: relative;
   bottom: 3px;
   border-radius: 50%;
-  padding: 0 3px 0 4px;
+  padding: 0 3px 0 3px;
   font-size: 0.1em;
   background: var(--Red);
   margin: 8px;
@@ -142,7 +142,7 @@ main .active .dot {
   body {
     justify-content: center;
     align-items: center;
-    background: var(--Light-grayish-blue-1);
+    background: var(--Very-light-grayish-blue);
   }
   header {
     width: 45.8125rem;
